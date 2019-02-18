@@ -15,7 +15,7 @@ Easy questions:
 
  1. How many total pings are in the Ocearch shark data?
  2. How many unique species of sharks are in the data set?
- 3. What is the name, weight, and species of the heaviest shark?
+ 3. What is the name, weight, and species of the heaviest shark(s)?
  4. When and where was the very first ping?
  5. Excluding results with 0 distance traveled: what's the minimum, average, and maximum travel distances?
 
