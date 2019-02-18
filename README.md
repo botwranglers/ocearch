@@ -13,7 +13,7 @@ The easy challenge offers you already-cleaned data and asks five questions that 
 
 Easy questions:
 
- 1. How many total pings are in the Ocearch data?
+ 1. How many total pings are in the Ocearch shark data?
  2. How many unique species of sharks are in the data set?
  3. What is the name, weight, and species of the heaviest shark?
  4. When and where was the very first ping?
@@ -30,7 +30,7 @@ Intermediate questions:
  2. Which shark has been pinging the longest, and how long has that been?
  3. Which shark species has the most individual sharks tagged?
  4. What is the average length and weight of each shark species?
- 5. Which shark has the biggest geographic box (largest distance from min lat/lon to max lat/lon, not dist_traveled)?
+ 5. Which shark has the biggest geographic box (largest area calculated from min lat/lon to max lat/lon, not dist_traveled)?
  
  
 ### Hard Challenge
