@@ -4,7 +4,7 @@
 
 The [Ocearch site](https://www.ocearch.org/) compiles information about Shark locations by tagging individual sharks with trackers that 'ping' with their location.  There are hundreds of sharks tracked, and tens of thousands of locational pings in total.
 
-This Binder-enabled Github repo offers three levels of challenges to analyze the Shark data.  
+This Binder-enabled Github repo offers three levels of challenges to analyze the Shark data.  Click the "Launch Binder" badge on this page to launch a Jupyter instance with the Challenge notebooks on the MyBinder cloud.
 
 
 ### Easy Challenge
