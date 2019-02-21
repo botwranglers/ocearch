@@ -1,6 +1,4 @@
 requests
 pandas
-matplotlib
-geopandas
 folium
 jupyter_contrib_nbextensions
