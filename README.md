@@ -2,16 +2,16 @@
 
 ### Ocearch Shark data analysis
 
-The [Ocearch site](https://www.ocearch.org/) compiles information about Shark locations by tagging individual sharks with trackers that 'ping' with their location.  There are hundreds of sharks tracked, and tens of thousands of locational pings in total.
+The [Ocearch site](https://www.ocearch.org/) compiles information about Shark locations by tagging individual sharks with trackers that 'ping' with their location.  There are hundreds of sharks tracked, and tens of thousands of locational pings.
 
-This Binder-enabled Github repo offers three levels of challenges to analyze the Shark data.  Click the "Launch Binder" badge on this page to launch a Jupyter instance with the Challenge notebooks on the MyBinder cloud.  
+This Binder-enabled Github repo offers three levels of challenges to analyze the Shark data.  Click the "Launch Binder" badge on this page to launch a Jupyter instance with the Challenge notebooks on the MyBinder cloud.  The Jupyter instance offers Python3 and R kernels, as well as the jupyter-contrib-nbextensions with `toc2`, `ExecuteTime`, and `collapsible_headings` enabled.  For Python, it has `pandas`, `requests`, and `folium` pre-installed.  For R, it has `tidyverse` and `leaflet`.
 
-Each challenge asks both harder questions and asks you to do more data cleaning.  If you want to skip the data cleaning, feel free to just read in `data/sharks_cleaned.csv` and use that to answer the intermediate and hard questions. 
+Each challenge asks both harder questions and asks you to do more data cleaning.  If you want to skip the data cleaning and just try to tackle the harder questions, feel free to just read in `data/sharks_cleaned.csv` for each challenge.  
 
 
 ### Easy Challenge
 
-The easy challenge offers you already-cleaned data and asks five questions that can be answered with basic Pandas methods.
+The easy challenge uses already-cleaned data and asks five questions that can be answered with basic Pandas methods.
 
 Easy questions:
 
@@ -24,7 +24,7 @@ Easy questions:
 
 ### Intermediate Challenge
 
-The intermediate challenge forces you to do some data cleaning before being able to answer the Easy Challenge questions, and asks five more questions that require more complex Pandas methods, in particular using `groupby`.
+The intermediate challenge uses data that needs some cleaning before being able to answer the Easy Challenge questions.  Furthermore, it asks five questions that require more complex analysis, in particular using `groupby`.
 
 Intermediate questions:
 
@@ -37,11 +37,11 @@ Intermediate questions:
  
 ### Hard Challenge
 
-The hard challenge forces you to read data straight from the Ocearch API and transform it into useful, cleaned data.  It asks challenging questions that involve timeseries and geolocation analysis, as well as using `folium` for visualization.
+The hard challenge makes a request straight to the Ocearch API, you'll have to parse the response and clean the data from there.  Along with answering the Easy and Intermediate questions, the Hard questions deal with time-series analysis, interpolating missing data, and plotting locations in an interactive map.
 
 Hard questions:
 
- 1. Use folium to plot the first ping, last ping, and a line connecting each ping for the Tiger shark Emma.  Make the first ping marker a 'play' icon, and last ping icon a 'stop' icon.
+ 1. Use folium/leaflet to plot the first ping, last ping, and a line connecting each ping for the Tiger shark Emma.  Make the first ping marker a 'play' icon, and last ping icon a 'stop' icon.
  2. Resample Emma data to have a daily lat/lon average, and interpolate missing results.  Plot a marker for each day, and color them blue for hard data, green for interpolated lat/lons
  3. Resample all shark data for daily lat/lon averages, and interpolate missing results
  4. Calculate distance between Emma and other sharks on a daily basis
@@ -50,4 +50,6 @@ Hard questions:
 
 ### Emma-shark
 
-In the Hard challenge, you analyze the data for the shark named Emma.  Our own Jon Ainsworth dove with the team that tagged Emma, and captured some beautiful underwater video of Emma-shark.  Check out a gif of one of his videos here: https://gfycat.com/jollybeautifulgalapagostortoise
+In the Hard challenge, you analyze the data for the shark named Emma.  Our own Jon Ainsworth dove with the team that tagged Emma, and captured some beautiful underwater video of Emma-shark.  
+
+<iframe src='https://gfycat.com/ifr/JollyBeautifulGalapagostortoise' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe><p> <a href="https://gfycat.com/jollybeautifulgalapagostortoise">Emma</a></p>
