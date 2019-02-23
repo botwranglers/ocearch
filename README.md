@@ -50,6 +50,4 @@ Hard questions:
 
 ### Emma-shark
 
-In the Hard challenge, you analyze the data for the shark named Emma.  Our own Jon Ainsworth dove with the team that tagged Emma, and captured some beautiful underwater video of Emma-shark.  
-
-<iframe src='https://gfycat.com/ifr/JollyBeautifulGalapagostortoise' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe><p> <a href="https://gfycat.com/jollybeautifulgalapagostortoise">Emma</a></p>
+In the Hard challenge, you analyze the data for the shark named Emma.  Our own Jon Ainsworth dove with the team that tagged Emma, and captured some beautiful underwater video of Emma-shark. Check it out here: https://gfycat.com/jollybeautifulgalapagostortoise
